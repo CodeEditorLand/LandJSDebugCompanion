@@ -1,10 +1,33 @@
 {
 	"name": "js-debug-companion",
 	"displayName": "JavaScript Debugger Companion Extension",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Companion extension to js-debug that provides capability for remote debugging",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandJSDebugCompanion#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandJSDebugCompanion/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandJSDebugCompanion.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./out/extension.js",
 	"scripts": {
-		"compile": "node .esbuild.js --minify"
+		"compile": "node .esbuild.js --minify",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"contributes": {},
 	"activationEvents": [
@@ -21,6 +44,7 @@
 		"ws": "8.18.1"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/duplexer3": "0.1.4",
 		"@types/eslint__js": "9.14.0",
 		"@types/node": "22.13.14",
@@ -28,6 +52,9 @@
 		"@types/ws": "8.18.0",
 		"esbuild": "0.25.1",
 		"rimraf": "6.0.1"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"icon": "resources/logo.png",
 	"api": "none",
