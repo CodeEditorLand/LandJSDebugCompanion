@@ -56,27 +56,27 @@
     "arrowParens": "avoid"
   },
   "devDependencies": {
-    "@eslint/js": "^9.6.0",
+    "@eslint/js": "^9.28.0",
     "@types/duplexer3": "^0.1.4",
-    "@types/eslint__js": "^8.42.3",
-    "@types/mocha": "^10.0.7",
-    "@types/node": "^20.14.9",
+    "@types/eslint__js": "^9.14.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.15.30",
     "@types/split2": "^4.2.3",
-    "@types/vscode": "^1.90.0",
-    "@types/ws": "^8.5.10",
-    "esbuild": "^0.22.0",
-    "eslint": "^8.57.0",
-    "prettier": "^3.3.2",
-    "rimraf": "^5.0.7",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^7.15.0"
+    "@types/vscode": "^1.100.0",
+    "@types/ws": "^8.18.1",
+    "esbuild": "^0.25.5",
+    "eslint": "^9.28.0",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.1"
   },
   "dependencies": {
     "@vscode/js-debug-browsers": "^1.1.2",
     "default-browser": "^5.2.1",
     "duplexer3": "^1.0.0",
-    "execa": "^5.1.1",
+    "execa": "^9.6.0",
     "split2": "^4.2.0",
-    "ws": "^8.17.1"
+    "ws": "^8.18.2"
   }
 }
