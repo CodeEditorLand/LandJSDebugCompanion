@@ -60,7 +60,7 @@
     "@types/duplexer3": "^0.1.4",
     "@types/eslint__js": "^9.14.0",
     "@types/mocha": "^10.0.10",
-    "@types/node": "^22.15.30",
+    "@types/node": "^24.0.0",
     "@types/split2": "^4.2.3",
     "@types/vscode": "^1.100.0",
     "@types/ws": "^8.18.1",
@@ -69,7 +69,7 @@
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.33.1"
+    "typescript-eslint": "^8.34.0"
   },
   "dependencies": {
     "@vscode/js-debug-browsers": "^1.1.2",
